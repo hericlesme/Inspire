@@ -1,0 +1,98 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "inspire",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuoteIntent",
+                    "slots": [
+                        {
+                            "name": "inspiration",
+                            "type": "inspiration"
+                        }
+                    ],
+                    "samples": [
+                        "me dar uma {inspiration}",
+                        "que tal uma {inspiration}",
+                        "preciso de uma boa {inspiration}",
+                        "me dê uma {inspiration}",
+                        "quero uma {inspiration}",
+                        "me {inspiration}",
+                        "preciso de {inspiration}",
+                        "estou afim de uma {inspiration} agora",
+                        "me diga algo {inspiration}",
+                        "diga uma {inspiration}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "inspiration",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "frase"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "citação"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "expressão"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "instigação"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "incitação"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "estímulo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "impulso"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inspirar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inspiração"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
