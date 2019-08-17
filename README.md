@@ -1,3 +1,3 @@
 # Inspire
 
-An Alexa Skill cloud environment
+Just An Alexa Skill
